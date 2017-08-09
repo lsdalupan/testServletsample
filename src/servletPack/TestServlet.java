@@ -30,7 +30,7 @@ public class TestServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 //		response.getWriter().append("Served at: ").append(request.getContextPath());
 //		response.getWriter().append("\ndaaaasssshhhh");
-		RequestDispatcher page = request.getRequestDispatcher("HelloWorld.html");
+		RequestDispatcher page = request.getRequestDispatcher("home.html");
 		page.forward(request, response);
 	}
 
